@@ -1,0 +1,36 @@
+.div{
+    position: absolute;
+    padding-left: 2rem;
+    color: white;
+    height: 80vh;
+    width: 100%;
+}
+
+.div h1{
+    margin-top: 5rem;
+}
+
+.div h3{
+    margin-top: 2rem;
+    max-width: 20rem;
+    font-weight: 300;
+}
+
+.buttoncont{
+    display: flex;
+}
+
+.buttoncont button{
+    width: 8rem;
+    height: 4rem;
+    border: none;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.buttoncont button:last-child{
+    margin-left: 10px;
+}

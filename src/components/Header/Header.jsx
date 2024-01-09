@@ -8,7 +8,6 @@ const Header = () => {
   const dispatch = useDispatch()
   const history = useNavigate()
   const user = useSelector(store => store.user)
-  console.log(user);
   function handleclick(){
     dispatch(removeUser())
     history("/login")

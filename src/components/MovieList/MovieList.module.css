@@ -1,0 +1,10 @@
+.div{
+    height: 11rem;
+    background-color: pink;
+    margin-bottom: 2rem;
+}
+
+.div div{
+    display: flex;
+    overflow-x: scroll;
+}
